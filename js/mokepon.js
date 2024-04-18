@@ -28,6 +28,7 @@ const ataquesDelEnemigo = document.getElementById('ataques-del-enemigo')
 //let botonTierra = document.getElementById('boton-tierra')
 //let sectionReiniciar = document.getElementById('reiniciar')
 
+let mokepones = []
 let ataqueJugador
 let ataqueEnemigo
 let vidasJugador = 3
@@ -44,6 +45,10 @@ class Mokepon {
 let hipodoge = new Mokepon ('Hipodoge', './assets/hipodoge.png', 5)
 let capipepo = new Mokepon ('Capipepo', './assets/capipepo.png', 5)
 let ratigueya = new Mokepon ('Ratigueya','./assets/ratigueya.png', 5)
+
+mokepones.push(hipodoge, capipepo, ratigueya)
+
+console.log(mokepones)
 
 function iniciarJuego(){
     
